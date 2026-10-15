@@ -1,0 +1,12 @@
+rules_version = '2';
+service cloud.firestore {
+ match /databases/{database}/documents {
+  // Substitua SEU_UID_AQUI pelo UID da sua conta no Firebase Authentication.
+  function owner() { return request.auth != null && request.auth.uid == 'SEU_UID_AQUI'; }
+  match /users/{uid} {
+   allow read, write: if owner() && uid == request.auth.uid;
+   match /{document=**} { allow read, write: if owner() && uid == request.auth.uid; }
+  }
+  match /{document=**} { allow read, write: if false; }
+ }
+}
