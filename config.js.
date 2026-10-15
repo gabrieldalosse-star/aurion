@@ -1,0 +1,12 @@
+
+window.FIREBASE_CONFIG = {
+  apiKey: "AIzaSyA58NouL0ww1zno447SuhyAtN4-DQ_kzIo",
+  authDomain: "aurion-788d9.firebaseapp.com",
+  projectId: "aurion-788d9",
+  storageBucket: "aurion-788d9.firebasestorage.app",
+  messagingSenderId: "637549292434",
+  appId: "1:637549292434:web:8a6565aee1f44f304e2f4b",
+  measurementId: "G-JG41LFC5MN"
+};
+
+window.ALLOWED_EMAIL = "gabrieleisinger@hotmail.com";
