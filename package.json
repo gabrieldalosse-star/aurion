@@ -1,0 +1,1 @@
+{"name":"aurion-financeiro","version":"2.0.0","private":true,"description":"Aurion para GitHub Pages e Firebase Auth/Firestore","scripts":{"test":"node --test tests/sync.test.mjs && node tests/engine.test.cjs","preview":"node preview.cjs"}}

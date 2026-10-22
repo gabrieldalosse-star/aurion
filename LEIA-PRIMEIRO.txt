@@ -1,0 +1,20 @@
+AURION — PRONTO PARA GITHUB COM INTEGRAÇÃO FIREBASE
+
+1. Extraia este ZIP.
+2. Suba os arquivos de dentro diretamente na raiz do repositório aurion.
+3. Substitua o Aurion.html antigo pelo novo. O arquivo principal agora é index.html.
+4. Preencha firebase-config.js com os dados públicos do seu projeto Firebase.
+5. Ative Google e Email/senha no Firebase Authentication.
+6. Autorize gabrieldalosse-star.github.io nos domínios do Authentication.
+7. Crie o Firestore e publique as regras contidas em firestore.rules.
+8. Em GitHub > Settings > Pages, publique main / (root).
+
+A configuração real do projeto Firebase ainda não foi fornecida. Os campos de exemplo não ativam a nuvem. A integração está no código, mas só poderá sincronizar depois da configuração acima.
+
+O site abre a demonstração sem configuração, pelo botão na tela de login.
+Depois de entrar, as finanças são separadas por usuário. As regras não permitem que uma conta leia a outra.
+
+Para trazer dados anteriores, exporte um backup JSON da versão antiga e restaure depois de entrar. Se os dados anteriores estiverem no mesmo navegador e domínio, use Importar dados antigos.
+
+Instruções detalhadas e links oficiais: README.md.
+Testes e limites da validação: VALIDACAO.md.
